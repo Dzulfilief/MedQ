@@ -1,6 +1,6 @@
-# 🩺 AntriPoli – Simulasi Antrean Klinik
+# 🩺 MedQ – Simulasi Antrean Klinik
 
-**AntriPoli** adalah aplikasi web sederhana untuk mensimulasikan antrean pasien di sebuah klinik.  
+**MedQ** adalah aplikasi web sederhana untuk mensimulasikan antrean pasien di sebuah klinik.  
 Dibuat dengan **Flask (Python)** dan bisa dijalankan di mana saja menggunakan **Docker**.
 
 ---
