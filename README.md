@@ -29,32 +29,21 @@ Dibuat dengan **Flask (Python)** dan bisa dijalankan di mana saja menggunakan **
 
 ### 1. Build Docker Image
 Jalankan di folder project:
-```bash
+```
 docker build -t medq .
 ```
 
 ### 2. Jalankan Container
 Setelah build berhasil:
 
-bash
-Copy
-Edit
+```
 docker run -p 5000:5000 medq
+```
 ### 3️. Akses Aplikasi
 Buka browser dan akses:
-
-arduino
-Copy
-Edit
+```
 http://localhost:5000
-4️⃣ Berhentiin Container (opsional)
-Kalau mau stop container:
-
-bash
-Copy
-Edit
-docker ps           # cek ID container
-docker stop <ID_CONTAINER>
+```
 📂 Struktur Folder
 arduino
 Copy
