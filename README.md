@@ -31,3 +31,50 @@ Dibuat dengan **Flask (Python)** dan bisa dijalankan di mana saja menggunakan **
 Jalankan di folder project:
 ```bash
 docker build -t medq .
+
+2️⃣ Jalankan Container
+Setelah build berhasil:
+
+bash
+Copy
+Edit
+docker run -p 5000:5000 medq
+3️⃣ Akses Aplikasi
+Buka browser dan akses:
+
+arduino
+Copy
+Edit
+http://localhost:5000
+4️⃣ Berhentiin Container (opsional)
+Kalau mau stop container:
+
+bash
+Copy
+Edit
+docker ps           # cek ID container
+docker stop <ID_CONTAINER>
+📂 Struktur Folder
+arduino
+Copy
+Edit
+.
+├── app.py              # main Flask app
+├── db.py               # modul database (SQLite)
+├── antri.db            # database lokal (TIDAK PERLU di-push ke GitHub)
+├── requirements.txt    # daftar library Python
+├── Dockerfile          # konfigurasi Docker
+├── README.md           # dokumentasi project
+└── templates/          # folder template HTML
+    ├── index.html
+    ├── cetak.html
+    └── riwayat.html
+⚠️ Catatan Penting
+✅ antri.db adalah file database lokal yang otomatis dibuat saat aplikasi berjalan.
+Tidak perlu di-upload atau di-download dari GitHub. Pastikan sudah masuk ke .gitignore.
+
+✅ Pastikan Docker sudah terinstal di komputermu.
+
+🏷 Lisensi
+Proyek ini dibuat untuk keperluan pembelajaran dan tugas kuliah.
+Silakan gunakan dan modifikasi sesuai kebutuhan. ✨
