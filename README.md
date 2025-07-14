@@ -31,7 +31,7 @@ Dibuat dengan **Flask (Python)** dan bisa dijalankan di mana saja menggunakan **
 Jalankan di folder project:
 ```bash
 docker build -t medq .
-
+```
 2️⃣ Jalankan Container
 Setelah build berhasil:
 
