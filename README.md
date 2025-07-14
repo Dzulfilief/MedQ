@@ -44,10 +44,8 @@ Buka browser dan akses:
 ```
 http://localhost:5000
 ```
-📂 Struktur Folder
-arduino
-Copy
-Edit
+## 📂 Struktur Folder
+```
 .
 ├── app.py              # main Flask app
 ├── db.py               # modul database (SQLite)
@@ -59,12 +57,12 @@ Edit
     ├── index.html
     ├── cetak.html
     └── riwayat.html
-⚠️ Catatan Penting
-✅ antri.db adalah file database lokal yang otomatis dibuat saat aplikasi berjalan.
+```
+## ⚠️ Catatan Penting
+- antri.db adalah file database lokal yang otomatis dibuat saat aplikasi berjalan.
 Tidak perlu di-upload atau di-download dari GitHub. Pastikan sudah masuk ke .gitignore.
+- Pastikan Docker sudah terinstal di komputermu.
 
-✅ Pastikan Docker sudah terinstal di komputermu.
-
-🏷 Lisensi
+## 🏷 Lisensi
 Proyek ini dibuat untuk keperluan pembelajaran dan tugas kuliah.
 Silakan gunakan dan modifikasi sesuai kebutuhan. ✨
