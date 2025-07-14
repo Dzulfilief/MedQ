@@ -10,7 +10,7 @@ Dibuat dengan **Flask (Python)** dan bisa dijalankan di mana saja menggunakan **
 -- Simulasi antrean dengan jadwal otomatis (mulai & selesai)  
 -- Dukungan multi layanan (Poli A, B, C, dst)  
 -- Tombol Reset, Tambah Pasien, Cetak Jadwal  
-_ Template tambahan:
+-- Template tambahan:
 - `index.html` → Halaman utama simulasi
 - `cetak.html` → Tampilan cetak jadwal
 - `riwayat.html` → (opsional) halaman riwayat
