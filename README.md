@@ -65,3 +65,10 @@ http://localhost:5000
 Tidak perlu di-upload atau di-download dari GitHub. Pastikan sudah masuk ke .gitignore.
 - Pastikan Docker sudah terinstal di komputermu.
 
+## Contoh Penggunaan
+1. Masukkan jumlah pasien, durasi per pasien, jam mulai, dan jumlah layanan.
+2. Klik Simulasikan, tabel antrean akan muncul.
+3. Bisa klik Tambah 1 Pasien untuk menambah pasien berikutnya.
+4. Klik Cetak Jadwal untuk print/export.
+5. Klik Reset untuk memulai ulang.
+
