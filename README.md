@@ -32,14 +32,15 @@ Jalankan di folder project:
 ```bash
 docker build -t medq .
 ```
-2️⃣ Jalankan Container
+
+### 2. Jalankan Container
 Setelah build berhasil:
 
 bash
 Copy
 Edit
 docker run -p 5000:5000 medq
-3️⃣ Akses Aplikasi
+### 3️. Akses Aplikasi
 Buka browser dan akses:
 
 arduino
