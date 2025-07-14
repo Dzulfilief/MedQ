@@ -8,9 +8,9 @@ Dibuat dengan **Flask (Python)** dan bisa dijalankan di mana saja menggunakan **
 ## ✨ Fitur Utama
 -- Input jumlah pasien, durasi pemeriksaan, jam mulai, dan jumlah layanan (dokter/poli)  
 -- Simulasi antrean dengan jadwal otomatis (mulai & selesai)  
-✅ Dukungan multi layanan (Poli A, B, C, dst)  
-✅ Tombol Reset, Tambah Pasien, Cetak Jadwal  
-✅ Template tambahan:
+-- Dukungan multi layanan (Poli A, B, C, dst)  
+-- Tombol Reset, Tambah Pasien, Cetak Jadwal  
+_ Template tambahan:
 - `index.html` → Halaman utama simulasi
 - `cetak.html` → Tampilan cetak jadwal
 - `riwayat.html` → (opsional) halaman riwayat
