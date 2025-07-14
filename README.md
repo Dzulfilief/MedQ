@@ -63,6 +63,3 @@ http://localhost:5000
 Tidak perlu di-upload atau di-download dari GitHub. Pastikan sudah masuk ke .gitignore.
 - Pastikan Docker sudah terinstal di komputermu.
 
-## 🏷 Lisensi
-Proyek ini dibuat untuk keperluan pembelajaran dan tugas kuliah.
-Silakan gunakan dan modifikasi sesuai kebutuhan. ✨
