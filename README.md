@@ -39,11 +39,13 @@ Setelah build berhasil:
 ```
 docker run -p 5000:5000 medq
 ```
+
 ### 3️. Akses Aplikasi
 Buka browser dan akses:
 ```
 http://localhost:5000
 ```
+
 ## 📂 Struktur Folder
 ```
 .
